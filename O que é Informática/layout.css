@@ -1,0 +1,123 @@
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to left, rgb(255, 102, 0), rgb(255, 176, 123));
+}
+
+.box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95vw;
+    height: 860px;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+b {
+    border-bottom: 2px solid rgb(150, 150, 0);
+}
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+    border-bottom: 2px solid rgb(196, 196, 196);
+    border-left: 2px solid rgb(196, 196, 196);
+}
+
+header {
+    background-color: orange;
+    color: black;
+
+}
+
+main {
+    background-color: rgb(255, 255, 191);
+    color: black;
+    width: 70vw;
+    height: 55vh;
+    position: absolute;
+    left: 1.05%;
+    padding: 10px;
+    margin-right: 50px;
+    
+}
+
+footer {
+    background-color: rgb(160, 159, 159);
+    color: black;
+    font-size: .8em;
+    width: 22.80vw;
+    height: 60vh;
+    position: absolute;
+    left: 70.90%;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+*nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: blue;
+    padding: 10px;
+}
+
+nav li a {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav li a:hover {
+    background-color: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px yellow;
+    display: none;
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: inline;
+}
+
+li.dropdown {
+    width: 60px;
+}
+
+#img1 {
+    width: 25vw;
+    position: fixed;
+    z-index: 2;
+}
+
+#img2 {
+    width: 30vw;
+    position: fixed;
+    z-index: 1;
+}
+
+#img3 {
+    width: 15vw;
+    position: fixed;
+    z-index: 3;
+}
